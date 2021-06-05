@@ -1,0 +1,21 @@
+{
+    "name" : "ikto/pgsql-migration-directories",
+    "type" : "library",
+    "description" : "The tool for installing/removing/upgrading/downgrading PgSQL schemas (connection adapter for PgSQL PHP module)",
+    "license": "MIT",
+    "keywords": [],
+    "authors": [
+        {
+            "name" : "Maxim Polishchuk",
+            "email" : "mpolishchuck@ikto.net"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "ikto/pg-migration-directories": "~1.0",
+        "ext-pgsql": "*"
+    },
+    "autoload" : {
+        "psr-4" : { "IKTO\\PgSqlMigrationDirectories\\" : ["src/"] }
+    }
+}
